@@ -1,0 +1,46 @@
+.bg-container {
+  background-color: #161624;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.each-country-item-con {
+  display: flex;
+  justify-content: space-between;
+}
+.country-head {
+  text-align: left;
+  color: #f8fafc;
+}
+.each-list-item {
+  list-style-type: none;
+  border: 1px solid #334155;
+  padding: 20px;
+}
+.country-unordered {
+  color: #f8fafc;
+  width: 100%;
+  height: 40vh;
+  overflow-y: scroll;
+  border-radius: 8px;
+}
+.country-img {
+  width: 145px;
+}
+.flags-unordered-con {
+  display: flex;
+  justify-content: space-evenly;
+  color: #f8fafc;
+  list-style-type: none;
+}
+.visitBtn {
+  background-color: #3b82f6;
+  width: 110px;
+  color: #f8fafc;
+  height: 45px;
+  border: 0px none black;
+}
